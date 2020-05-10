@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushal's gym</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+<style>
+    /* css reset */
+    
+    body {
+        background-image: url('img/pg.png');
+        width: 430px;
+        height: 400px;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        /* font-family: 'Montserrat Alternates', sans-serif; */
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+    
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+    
+    .left img {
+        width: 75px;
+        filter: invert(100%);
+        display: inline;
+    }
+    /* .left div {
+        text-align: center;
+    } */
+    
+    .mid {
+        /* border: 2px solid grey; */
+        display: inline-block;
+        width: 145%;
+        margin: 30px 325px;
+    }
+    
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 35px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    
+    .navbar {
+        display: inline
+    }
+    
+    .navbar li {
+        display: inline;
+        font-size: 20px;
+    }
+    
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 20px;
+    }
+    
+    .navbar a:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+    
+    .btn {
+        margin: 10px 10px;
+        color: white;
+        background-color: black;
+        border: solid grey;
+        font-size: 20px;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+    
+    .btn:hover {
+        color: grey;
+        text-decoration: underline gray;
+    }
+    
+    .contnr {
+        border: 2px solid gray;
+        margin: 90px 100px;
+        padding: 13px;
+        width: 78%;
+        height: 369px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    .formgroup input {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 15px;
+        margin: 4px 7px;
+        padding: 5px 2px;
+        border: 2px solid black;
+        border-radius: 10px;
+        display: block;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/Dumb.png" alt="">
+            <div>
+                Khushal's Fitness
+            </div>
+
+        </div>
+        <!-- <div id="class">
+         background-image
+        </div> -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness check</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Blogs</button>
+    </header>
+    <div class="contnr">
+        <h1>Join the best gym near you</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your contact no">
+            </div>
+            <button class="btn">Submitt</button>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
